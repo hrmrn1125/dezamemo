@@ -140,7 +140,7 @@
 }
 
 .p-planPC {
-  margin: 32px auto;
+  margin: 32px auto 0;
 }
 
 .p-planPC ul {
@@ -246,6 +246,28 @@
   width: 300px;
 }
 
+.p-planTextPC {
+  display: block;
+  margin: 12px auto 0;
+  width: 910px;
+}
+
+.p-planTextMB {
+  display: block;
+  margin: 16px auto 0;
+  width: 310px;
+}
+
+.p-planTextPC__text {
+  width: 910px;
+}
+
+.p-planTextMB__text {
+  display: block;
+  margin: 0 auto;
+  width: 310px;
+}
+
 @media only screen and (max-width: 1019px) {
   .p-planPCImg {
     width: auto;
@@ -280,6 +302,16 @@
     position: absolute;
     bottom: 50px;
     width: 250px;
+  }
+
+  .p-planTextPC {
+    display: block;
+    margin: 12px auto 0;
+    width: 810px;
+  }
+
+  .p-planTextPC__text {
+    width: 810px;
   }
 }
 
