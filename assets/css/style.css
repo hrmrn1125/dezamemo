@@ -16,14 +16,16 @@
 
 .l-header {
   display: flex;
-  padding: 20px 32px 0;
+  top: 0;
+  left: 0;
+  margin: 20px 32px 0;
   position: absolute;
-  width: 100vw;
+  width: calc(100vw - 64px);
   height: 54px;
 }
 
 .p-logo {
-  left: 0;
+  left: 32px;
   margin-top: -12px;
   width: 100%;
   height: 54px;
@@ -49,8 +51,8 @@
 
 .p-topBtn {
   position: absolute;
-  top: 32px;
-  right: 96px;
+  top: 12px;
+  right: 4px;
   width: auto;
   height: 52px;
 }
@@ -109,6 +111,10 @@
 
 .p-curriPC {
   margin: 0 20px;
+}
+
+.p-curriPC__img {
+  width: calc(100vw - 40px);
 }
 
 .p-curriMB {
@@ -294,7 +300,8 @@
 
   .l-header {
     position: absolute;
-    padding: 16px 16px 0;
+    margin: 16px 12px 0;
+    width: calc(100vw - 24px);
   }
 
   .p-logo {
