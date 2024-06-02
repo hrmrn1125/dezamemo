@@ -1,0 +1,163 @@
+.pc-only {
+  margin: 0;
+  padding: 0;
+}
+
+.mb-only {
+  margin: 0;
+  padding: 0;
+}
+
+.l-wrap {
+  width: 100vw;
+}
+
+.l-header {
+  display: flex;
+  padding: 20px 32px 0;
+  position: absolute;
+  width: 100vw;
+  height: 54px;
+}
+
+.p-logo {
+  left: 0;
+  margin-top: -20px;
+  width: 100%;
+  height: 54px;
+}
+
+.p-copyPC {
+  position: absolute;
+  z-index: 2;
+  left: 10%;
+  top: 132px;
+  height: 44vw;
+}
+
+.l-visualPC {
+  width: 100vw;
+  height: auto;
+}
+
+.l-visualMB {
+  width: 100vw;
+  height: auto;
+}
+
+.p-topBtn {
+  position: absolute;
+  top: 32px;
+  right: 96px;
+  width: auto;
+  height: 52px;
+}
+
+.p-topBtnImg {
+  width: auto;
+  height: 52px;
+}
+
+.p-contentsPC {
+  margin: 60px 0 0;
+  width: 100vw;
+}
+
+.p-contentsMB {
+  margin: 60px 0 0;
+  width: 100vw;
+}
+
+.p-titlePC {
+  display: block;
+  margin: 0 auto;
+  height: 68px;
+}
+
+.p-titleMB {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.p-meritPC {
+  margin: 32px 40px 0;
+}
+
+.p-meritPC__img {
+  width: 100%;
+}
+
+.p-meritMB {
+  margin: 32px 20px 0 10px;
+}
+
+.p-meritMB li {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.p-meritMB li:last-child {
+  margin-bottom: 0;
+}
+
+.p-meritMB__img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .mb-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .l-wrap {
+    position: relative;
+  }
+
+  .pc-only {
+    display: none;
+  }
+
+  .l-header {
+    position: absolute;
+    padding: 16px 16px 0;
+  }
+
+  .p-logo {
+    z-index: 3;
+    position: absolute;
+    left: 10px;
+    width: auto;
+    height: 46px;
+  }
+
+  .l-topContents {
+    position: absolute;
+    z-index: 2;
+    margin: 0 5%;
+    top: 16vh;
+    width: 90%;
+    height: 90vh;
+  }
+
+  .p-copyMB {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .p-topBtnMB {
+    display: block;
+    margin: 24px auto 0;
+    width: 85%;
+    height: auto;
+  }
+  
+  .p-topBtnMB__img {
+    width: 100%;
+    height: 100%;
+  }
+}
