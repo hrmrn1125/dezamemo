@@ -26,9 +26,9 @@
 
 .p-logo {
   left: 32px;
-  margin-top: -12px;
+  margin-top: -8px;
   width: 100%;
-  height: 54px;
+  height: 58px;
 }
 
 .p-copyPC {
@@ -129,7 +129,7 @@
   display: block;
   margin: 0 auto;
   padding-top: 20px;
-  height: 94px;
+  height: 84px;
 }
 
 .p-planTitleMB {
@@ -266,6 +266,69 @@
   display: block;
   margin: 0 auto;
   width: 310px;
+}
+
+.p-exampleTitlePC {
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+  height: 84px;
+}
+
+.p-exampleTextPC {
+  display: block;
+  margin: 32px auto 0;
+  width: 630px;
+}
+
+.p-exampleTextPC__text {
+  width: 630px;
+}
+
+.p-exampleTextPCBtm {
+  display: block;
+  margin: 12px auto 0;
+  width: 700px;
+}
+
+.p-exampleTextPCBtm__text {
+  width: 700px;
+}
+
+.p-exampleTextMB {
+  display: block;
+  margin: 32px auto 0;
+  width: 322px;
+}
+
+.p-exampleTextMB__text {
+  display: block;
+  margin: 0 auto;
+  width: 322px;
+}
+
+.p-exampleTextMBBtm {
+  display: block;
+  margin: 16px auto 0;
+  width: 312px;
+}
+
+.p-exampleTextMBBtm__text {
+  display: block;
+  margin: 0 auto;
+  width: 312px;
+}
+
+.p-examplePC {
+  margin: 24px 44px 0;
+}
+
+.p-examplePC__img {
+  width: 100%;
+}
+
+.p-exampleMB {
+  margin: 32px 20px 0;
 }
 
 @media only screen and (max-width: 1019px) {
