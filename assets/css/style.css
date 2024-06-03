@@ -400,6 +400,15 @@
   margin: 0 20px 0 auto;
   width: 36px;
   height: 36px;
+  background: url("../img/plus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.p-question__plus.close {
+  background: url("../img/mainasu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .p-questionBorder {
@@ -700,4 +709,8 @@
   .p-footerNav li {
     margin-right: 16px;
   }
+}
+
+.hidden {
+  display: none;
 }
