@@ -666,34 +666,34 @@
     display: block;
     margin: 14px 0 18px 8px;
     width: auto;
-    height: 78px;
+    height: 154px;
   }
   
   .p-question__textA2 {
     display: block;
     margin: 14px 0 18px 8px;
     width: auto;
-    height: 123px;
+    height: 200px;
   }
   
   .p-question__text3 {
     display: block;
     margin: 14px 0 18px 8px;
     width: auto;
-    height: 142px;
+    height: 266px;
   }
   
   .p-question__text4 {
     display: block;
     margin: 14px 0 18px 8px;
     width: auto;
-    height: 280px;
+    height: 494.5px;
   }
 
   .p-btmBtn {
     display: block;
     margin: 0 auto 60px;
-    width: 76%;
+    width: 85%;
     height: auto;
   }
   
@@ -708,6 +708,12 @@
 
   .p-footerNav li {
     margin-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .p-questionTitleMB {
+    height: 40px;
   }
 }
 
