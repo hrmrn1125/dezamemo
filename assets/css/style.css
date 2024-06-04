@@ -753,3 +753,12 @@
 .hidden {
   display: none;
 }
+
+.l-privacy {
+  margin: 32px 60px 40px;
+}
+
+.p-line {
+  color: #3F70F5;
+  border-bottom: 1px solid #3F70F5;
+}
