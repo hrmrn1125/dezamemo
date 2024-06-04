@@ -665,29 +665,29 @@
   .p-question__textA1 {
     display: block;
     margin: 14px 0 18px 8px;
-    width: auto;
-    height: 154px;
+    width: 230px;
+    height: auto;
   }
   
   .p-question__textA2 {
     display: block;
     margin: 14px 0 18px 8px;
-    width: auto;
-    height: 200px;
+    width: 230px;
+    height: auto;
   }
   
   .p-question__text3 {
     display: block;
     margin: 14px 0 18px 8px;
-    width: auto;
-    height: 266px;
+    width: 230px;
+    height: auto;
   }
   
   .p-question__text4 {
     display: block;
     margin: 14px 0 18px 8px;
-    width: auto;
-    height: 494.5px;
+    width: 230px;
+    height: auto;
   }
 
   .p-btmBtn {
@@ -708,6 +708,39 @@
 
   .p-footerNav li {
     margin-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  .p-planWrap {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  
+  .p-planPCImg {
+    height: 950px;
+  }
+  
+  .p-planWrap__img {
+    height: 950px;
+  }
+
+  .p-planTop {
+    width: 260px;
+  }
+  
+  .p-planBtm {
+    width: 260px;
+  }
+
+  .p-planMB__topBtn {
+    bottom: 418px;
+    width: 260px;
+  }
+
+  .p-planMB__btn {
+    bottom: 44px;
+    width: 260px;
   }
 }
 
