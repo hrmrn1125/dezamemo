@@ -249,8 +249,8 @@
 
 .p-planTextPC {
   display: block;
-  margin: 12px auto 0;
-  width: 910px;
+  margin: 16px auto 0;
+  width: 830px;
 }
 
 .p-planTextMB {
@@ -260,7 +260,7 @@
 }
 
 .p-planTextPC__text {
-  width: 910px;
+  width: 830px;
 }
 
 .p-planTextMB__text {
@@ -516,11 +516,11 @@
   .p-planTextPC {
     display: block;
     margin: 12px auto 0;
-    width: 810px;
+    width: 790px;
   }
 
   .p-planTextPC__text {
-    width: 810px;
+    width: 790px;
   }
 }
 
