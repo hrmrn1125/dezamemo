@@ -77,7 +77,7 @@ function scroll_top() {
 
 window.onload = function() {
   const spinner = document.getElementById('loader');
-  const mb = document.getElementById('load-mb');
+  const mb = document.getElementById('loadMb');
   spinner.classList.add('loaded');
   mb.classList.add('smooth');
 }
