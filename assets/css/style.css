@@ -29,6 +29,7 @@
   margin-top: -8px;
   width: 100%;
   height: 58px;
+  z-index: 1000;
 }
 
 .p-copyPC {
@@ -42,6 +43,7 @@
 .l-visualPC {
   width: 100vw;
   height: auto;
+  z-index: 1;
 }
 
 .l-visualMB {
@@ -55,6 +57,7 @@
   right: 4px;
   width: auto;
   height: 52px;
+  z-index: 101;
 }
 
 .p-topBtnImg {
@@ -477,6 +480,18 @@
   margin-right: 0;
 }
 
+.p-pageTop {
+  margin: -100px 30px 0 auto;
+  padding-bottom: 18px;
+  width: 80px;
+  height: 80px;
+}
+
+.c-pageTop {
+  width: 80px;
+  height: 80px;
+}
+
 @media only screen and (max-width: 1019px) {
   .p-planPCImg {
     width: auto;
@@ -709,6 +724,18 @@
   .p-footerNav li {
     margin-right: 16px;
   }
+
+  .p-pageTop {
+    margin: -44px 12px 0 auto;
+    padding-bottom: 12px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .c-pageTop {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media only screen and (max-width: 366px) {
@@ -752,6 +779,37 @@
 
 .hidden {
   display: none;
+}
+
+.smooth {
+	animation-name:smoothAnime;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+  transform-origin:left;
+	opacity:0;
+}
+
+@keyframes smoothAnime {
+  from {
+    transform:translate3d(0, 100%, 0) skewY(12deg);
+    opacity:0;
+  }
+
+  to {
+    transform:translate3d(0, 0, 0) skewY(0);
+    opacity:1;
+  }
+}
+
+.fade {
+	opacity: 0;
+	transform: translateY(100px);
+	transition: opacity 1.5s, transform 1s;
+}
+
+.fade.active {
+	opacity: 1;
+	transform: translateY(0px);
 }
 
 .l-privacy {
