@@ -74,3 +74,8 @@ pagetop_btn.addEventListener("click", scroll_top);
 function scroll_top() {
   window.scroll({ top: 0, behavior: "smooth" });
 }
+
+window.onload = function() {
+  const spinner = document.getElementById('loader');
+  spinner.classList.add('loaded');
+}
