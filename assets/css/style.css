@@ -99,10 +99,23 @@
   height: 70px;
 }
 
+.p-titlePC__banner {
+  display: block;
+  margin: 0 auto;
+  height: 240px;
+}
+
 .p-titleMB {
   display: block;
   margin: 0 auto;
   height: 120px;
+}
+
+.p-titleMB__banner {
+  display: block;
+  margin: 0 auto;
+  width: calc(100% - 16px);
+  height: auto;
 }
 
 .p-meritPC {
